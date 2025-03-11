@@ -1,0 +1,302 @@
+examples/c/app/out/app.elf:1a001bac 000000a4 t uartProcessIRQ
+examples/c/app/out/app.elf:1000013c 00000004 b rxIsrCallbackUART0
+examples/c/app/out/app.elf:10000140 00000004 b rxIsrCallbackUART2
+examples/c/app/out/app.elf:10000144 00000004 b rxIsrCallbackUART3
+examples/c/app/out/app.elf:10000148 00000004 b txIsrCallbackUART0
+examples/c/app/out/app.elf:1000014c 00000004 b txIsrCallbackUART2
+examples/c/app/out/app.elf:10000150 00000004 b txIsrCallbackUART3
+examples/c/app/out/app.elf:1a002cd0 00000048 t lpcUarts
+examples/c/app/out/app.elf:1000011a 00000002 b call_count_led.13923
+examples/c/app/out/app.elf:1000011c 00000002 b call_count_mef.13924
+examples/c/app/out/app.elf:1000011e 00000001 b i.13927
+examples/c/app/out/app.elf:10000000 00000001 d first_time.13928
+examples/c/app/out/app.elf:1a002a40 00000004 t InitClkStates
+examples/c/app/out/app.elf:1a002a44 00000074 t pinmuxing
+examples/c/app/out/app.elf:1a00085c 00000044 t Board_LED_Init
+examples/c/app/out/app.elf:1a0008a0 00000040 t Board_TEC_Init
+examples/c/app/out/app.elf:1a0008e0 00000040 t Board_GPIO_Init
+examples/c/app/out/app.elf:1a000920 00000030 t Board_ADC_Init
+examples/c/app/out/app.elf:1a000950 00000038 t Board_SPI_Init
+examples/c/app/out/app.elf:1a000988 00000024 t Board_I2C_Init
+examples/c/app/out/app.elf:1a002abc 00000008 t GpioButtons
+examples/c/app/out/app.elf:1a002ac4 0000000c t GpioLeds
+examples/c/app/out/app.elf:1a002ad0 00000012 t GpioPorts
+examples/c/app/out/app.elf:1a000a08 00000014 t Chip_SSP_GetClockIndex
+examples/c/app/out/app.elf:1a000a1c 00000018 t Chip_SSP_GetPeriphClockIndex
+examples/c/app/out/app.elf:10000004 00000038 d i2c
+examples/c/app/out/app.elf:1a000b3c 0000002c t Chip_TIMER_GetClockIndex
+examples/c/app/out/app.elf:1a000b8c 00000014 t Chip_ADC_GetClockIndex
+examples/c/app/out/app.elf:1a000ba0 00000032 t getClkDiv
+examples/c/app/out/app.elf:1a002ae8 00000048 t InitClkStates
+examples/c/app/out/app.elf:1a000dc0 000000a0 t pll_calc_divs
+examples/c/app/out/app.elf:1a000e60 0000010c t pll_get_frac
+examples/c/app/out/app.elf:1a000f6c 0000004c t Chip_Clock_FindBaseClock
+examples/c/app/out/app.elf:1a0011e0 00000022 t Chip_Clock_GetDivRate
+examples/c/app/out/app.elf:10000120 00000008 b audio_usb_pll_freq
+examples/c/app/out/app.elf:1a002b3c 0000006c t periph_to_base
+examples/c/app/out/app.elf:1a00134c 0000002c t Chip_UART_GetIndex
+examples/c/app/out/app.elf:1a002ba8 00000008 t UART_BClock
+examples/c/app/out/app.elf:1a002bb0 00000008 t UART_PClock
+examples/c/app/out/app.elf:1000003c 00000004 d ClockSpeed
+examples/c/app/out/app.elf:1a00153c 00000034 t gpioObtainPinInit
+examples/c/app/out/app.elf:1a001804 00000002 t errorOcurred
+examples/c/app/out/app.elf:1a001806 00000002 t doNothing
+examples/c/app/out/app.elf:10000040 00000040 d timer_dd
+examples/c/app/out/app.elf:1a002ca0 00000030 t timer_sd
+examples/c/app/out/app.elf:10000128 00000004 b callBackFuncParams
+examples/c/app/out/app.elf:10000130 00000008 b tickCounter
+examples/c/app/out/app.elf:10000138 00000004 b tickHookFunction
+examples/c/app/out/app.elf:10000154 00000004 b g_hUsb
+examples/c/app/out/app.elf:10000088 00000048 d AttachedServoList
+examples/c/app/out/app.elf:1a002d18 00000009 t servoMap
+examples/c/app/out/app.elf:1a002140 00000010 t clearInterrupt
+examples/c/app/out/app.elf:1a002150 0000005c t serveInterrupt
+examples/c/app/out/app.elf:100000d0 00000048 d ultrasonicSensors
+examples/c/app/out/app.elf:1a002d24 00000003 t ultrasonicSensorsIrqMap
+examples/c/app/out/app.elf:1a002d2c t __init_array_end
+examples/c/app/out/app.elf:1a002d28 b __preinit_array_end
+examples/c/app/out/app.elf:1a002d28 t __init_array_start
+examples/c/app/out/app.elf:1a002d28 b __preinit_array_start
+examples/c/app/out/app.elf:1a000650 00000016 T potencia
+examples/c/app/out/app.elf:1a001004 0000001c T Chip_Clock_GetDividerSource
+examples/c/app/out/app.elf:1a002618 00000012 T __aeabi_dcmple
+examples/c/app/out/app.elf:1a001a44 00000044 T TIMER2_IRQHandler
+examples/c/app/out/app.elf:1a001c80 00000014 T uartRxRead
+examples/c/app/out/app.elf:1a002554 0000007a T __cmpdf2
+examples/c/app/out/app.elf:1a000184 00000002 W DebugMon_Handler
+examples/c/app/out/app.elf:1a0001ba 00000002 W RIT_IRQHandler
+examples/c/app/out/app.elf:1a0003ae 00000038 T girarServo
+examples/c/app/out/app.elf:1a080000 A __top_MFlashA512
+examples/c/app/out/app.elf:1a002554 0000007a T __eqdf2
+examples/c/app/out/app.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+examples/c/app/out/app.elf:1a000114 T __section_table_start
+examples/c/app/out/app.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+examples/c/app/out/app.elf:1a0024e8 0000005a T __floatdidf
+examples/c/app/out/app.elf:1a0001ba 00000002 W I2C0_IRQHandler
+examples/c/app/out/app.elf:1a001d24 0000001e T uartReadByte
+examples/c/app/out/app.elf:1a000a00 00000008 T __stdio_init
+examples/c/app/out/app.elf:1a00017a 00000002 W HardFault_Handler
+examples/c/app/out/app.elf:1a000000 A __vectors_start__
+examples/c/app/out/app.elf:1a000c46 0000000c T Chip_ADC_SetResolution
+examples/c/app/out/app.elf:1a001b80 0000002c T SysTick_Handler
+examples/c/app/out/app.elf:1a0020f4 00000024 T servoInit
+examples/c/app/out/app.elf:1a0013cc 00000040 T Chip_UART_SetBaud
+examples/c/app/out/app.elf:1a00071c 00000002 W initialise_monitor_handles
+examples/c/app/out/app.elf:1a0001ba 00000002 W SDIO_IRQHandler
+examples/c/app/out/app.elf:1a001e70 0000001c T timer2CompareMatch2func
+examples/c/app/out/app.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+examples/c/app/out/app.elf:1a000186 00000002 W PendSV_Handler
+examples/c/app/out/app.elf:1a000178 00000002 W NMI_Handler
+examples/c/app/out/app.elf:1a002d34 R __exidx_end
+examples/c/app/out/app.elf:1a000150 T __data_section_table_end
+examples/c/app/out/app.elf:1a0001ba 00000002 W I2C1_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W UART1_IRQHandler
+examples/c/app/out/app.elf:1a002544 0000008a T __gtdf2
+examples/c/app/out/app.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W CAN1_IRQHandler
+examples/c/app/out/app.elf:53ff716e A __valid_user_code_checksum
+examples/c/app/out/app.elf:1a002d34 R _etext
+examples/c/app/out/app.elf:1a0025e0 00000010 T __aeabi_cdcmple
+examples/c/app/out/app.elf:1a0001ba 00000002 W USB1_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W I2S0_IRQHandler
+examples/c/app/out/app.elf:1000015c 00000001 B estado_boton
+examples/c/app/out/app.elf:1a001a88 00000044 T TIMER3_IRQHandler
+examples/c/app/out/app.elf:1a001282 0000000c T Chip_Clock_GetBaseClocktHz
+examples/c/app/out/app.elf:1a00206c 00000058 T servoAttach
+examples/c/app/out/app.elf:1a0001bc 0000000a T UART0_IRQHandler
+examples/c/app/out/app.elf:1a0001a8 00000012 T bss_init
+examples/c/app/out/app.elf:1a000b74 00000018 T Chip_TIMER_Reset
+examples/c/app/out/app.elf:1a0025d0 00000020 T __aeabi_cdrcmple
+examples/c/app/out/app.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+examples/c/app/out/app.elf:10000167 00000001 B FLAG_WAIT
+examples/c/app/out/app.elf:1a002470 00000022 T __floatsidf
+examples/c/app/out/app.elf:1a00254c 00000082 T __ltdf2
+examples/c/app/out/app.elf:1000015d 00000001 B initMsg
+examples/c/app/out/app.elf:10000119 00000001 B angulo
+examples/c/app/out/app.elf:1a0026e4 T __aeabi_uldivmod
+examples/c/app/out/app.elf:10000170 ? _noinit
+examples/c/app/out/app.elf:10000168 00000004 B SystemCoreClock
+examples/c/app/out/app.elf:1a001378 00000054 T Chip_UART_Init
+examples/c/app/out/app.elf:1a0001ba 00000002 W ADC0_IRQHandler
+examples/c/app/out/app.elf:1a000180 00000002 W UsageFault_Handler
+examples/c/app/out/app.elf:1a001300 0000004c T Chip_Clock_GetRate
+examples/c/app/out/app.elf:1a000300 0000000c T myTickHook
+examples/c/app/out/app.elf:1a0026a4 00000040 T __fixunsdfsi
+examples/c/app/out/app.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+examples/c/app/out/app.elf:1a001ee0 0000001c T timer3CompareMatch3func
+examples/c/app/out/app.elf:1a0007e4 0000006c T Board_SetupClocking
+examples/c/app/out/app.elf:20008000 A __top_RamAHB32
+examples/c/app/out/app.elf:1a002450 0000001e T __aeabi_ui2d
+examples/c/app/out/app.elf:1a0020c4 00000030 T servoDetach
+examples/c/app/out/app.elf:1a002714 000002d0 T __udivmoddi4
+examples/c/app/out/app.elf:1a0021cc T __aeabi_drsub
+examples/c/app/out/app.elf:1a002ab8 00000004 T ExtRateIn
+examples/c/app/out/app.elf:1a0001ba 00000002 W IntDefaultHandler
+examples/c/app/out/app.elf:1a001e00 0000001c T timer1CompareMatch1func
+examples/c/app/out/app.elf:1a000300 T __CRP_WORD_END__
+examples/c/app/out/app.elf:1a002604 00000012 T __aeabi_dcmplt
+examples/c/app/out/app.elf:1a0021b6 0000000a T GPIO1_IRQHandler
+examples/c/app/out/app.elf:1a002494 00000042 T __extendsfdf2
+examples/c/app/out/app.elf:1a0001ba 00000002 W SSP0_IRQHandler
+examples/c/app/out/app.elf:1a0021d8 00000276 T __adddf3
+examples/c/app/out/app.elf:1a001c50 00000018 T uartRxReady
+examples/c/app/out/app.elf:1a002d2c R __exidx_start
+examples/c/app/out/app.elf:1a0002fc 00000004 T CRP_WORD
+examples/c/app/out/app.elf:1a0029e8 00000048 T __libc_init_array
+examples/c/app/out/app.elf:1a000418 00000220 T MEF_update
+examples/c/app/out/app.elf:1a000318 00000028 T TIMER_Dispatch_Task
+examples/c/app/out/app.elf:1a002450 0000001e T __floatunsidf
+examples/c/app/out/app.elf:1a0001ba 00000002 W ADC1_IRQHandler
+examples/c/app/out/app.elf:1a0009d0 00000030 T Board_Init
+examples/c/app/out/app.elf:1a0007aa 00000002 W _init
+examples/c/app/out/app.elf:1a000114 T __data_section_table
+examples/c/app/out/app.elf:1a001e38 0000001c T timer1CompareMatch3func
+examples/c/app/out/app.elf:1a002044 00000028 T servoIsAttached
+examples/c/app/out/app.elf:1a0001ba 00000002 W RTC_IRQHandler
+examples/c/app/out/app.elf:10000170 B _ebss
+examples/c/app/out/app.elf:1a0019c4 00000040 T TIMER0_IRQHandler
+examples/c/app/out/app.elf:1a000720 00000088 T Reset_Handler
+examples/c/app/out/app.elf:1a001b04 0000007c T tickInit
+examples/c/app/out/app.elf:20010000 A __top_RamAHB_ETB16
+examples/c/app/out/app.elf:1a0001ba 00000002 W SPI_IRQHandler
+examples/c/app/out/app.elf:1a001e54 0000001c T timer2CompareMatch1func
+examples/c/app/out/app.elf:1a000b00 00000038 T Chip_I2C_SetClockRate
+examples/c/app/out/app.elf:1a002654 0000004e T __fixdfsi
+examples/c/app/out/app.elf:1a0001ba 00000002 W LCD_IRQHandler
+examples/c/app/out/app.elf:1a000fb8 0000004c T Chip_Clock_EnableCrystal
+examples/c/app/out/app.elf:10008000 A __top_RamLoc32
+examples/c/app/out/app.elf:1a0021d8 00000276 T __aeabi_dadd
+examples/c/app/out/app.elf:1a00018a 0000001e T data_init
+examples/c/app/out/app.elf:1a00254c 00000082 T __ledf2
+examples/c/app/out/app.elf:1a0024d8 0000006a T __aeabi_ul2d
+examples/c/app/out/app.elf:1a001a04 00000040 T TIMER1_IRQHandler
+examples/c/app/out/app.elf:1a000adc 00000024 T Chip_I2C_Init
+examples/c/app/out/app.elf:1a001d5c 0000000a T UART2_IRQHandler
+examples/c/app/out/app.elf:1a001174 0000006c T Chip_Clock_GetMainPLLHz
+examples/c/app/out/app.elf:1a002bb8 000000e6 T gpioPinsInit
+examples/c/app/out/app.elf:1a001d42 0000001a T uartWriteByte
+examples/c/app/out/app.elf:1a000a34 00000012 T Chip_SSP_SetClockRate
+examples/c/app/out/app.elf:1a0006d0 00000026 T AnguloDeGiro
+examples/c/app/out/app.elf:1a002640 00000012 T __aeabi_dcmpgt
+examples/c/app/out/app.elf:1a0017ee 00000016 T gpioToggle
+examples/c/app/out/app.elf:1a0021c0 0000000a T GPIO2_IRQHandler
+examples/c/app/out/app.elf:1a001808 00000120 T Timer_Init
+examples/c/app/out/app.elf:1a001928 00000008 T Timer_microsecondsToTicks
+examples/c/app/out/app.elf:1a00125c 00000026 T Chip_Clock_GetBaseClock
+examples/c/app/out/app.elf:1a00262c 00000012 T __aeabi_dcmpge
+examples/c/app/out/app.elf:1a001ffc 00000048 T servoInitTimers
+examples/c/app/out/app.elf:1a0006bc 00000014 T definirNiveles
+examples/c/app/out/app.elf:1a0006f6 00000026 T AnguloDeGiroPulgar
+examples/c/app/out/app.elf:10000118 B _bss
+examples/c/app/out/app.elf:1a000c14 00000032 T Chip_ADC_SetSampleRate
+examples/c/app/out/app.elf:1a0021d4 0000027a T __aeabi_dsub
+examples/c/app/out/app.elf:1000011f 00000001 B level
+examples/c/app/out/app.elf:1a0024d8 0000006a T __floatundidf
+examples/c/app/out/app.elf:1a000668 00000054 T redondeo
+examples/c/app/out/app.elf:1a0001ba 00000002 W I2S1_IRQHandler
+examples/c/app/out/app.elf:1a00030c 0000000c T TIMER_Init
+examples/c/app/out/app.elf:1a000a46 0000003e T Chip_SSP_SetBitRate
+examples/c/app/out/app.elf:1a000b38 00000002 T Chip_GPIO_Init
+examples/c/app/out/app.elf:1a002ae4 00000004 T OscRateIn
+examples/c/app/out/app.elf:1a001ca8 0000007c T uartInit
+examples/c/app/out/app.elf:1a000638 00000018 T USB_init
+examples/c/app/out/app.elf:1a001f18 0000004c T timer1CompareMatch0func
+examples/c/app/out/app.elf:10000170 ? _end_noinit
+examples/c/app/out/app.elf:10008000 A _vStackTop
+examples/c/app/out/app.elf:1a0001ba 00000002 W SSP1_IRQHandler
+examples/c/app/out/app.elf:1a000b68 0000000c T Chip_TIMER_Init
+examples/c/app/out/app.elf:1a000178 T __bss_section_table_end
+examples/c/app/out/app.elf:1a002470 00000022 T __aeabi_i2d
+examples/c/app/out/app.elf:1a001570 000001ac T gpioInit
+examples/c/app/out/app.elf:1a0029e4 00000002 W __aeabi_ldiv0
+examples/c/app/out/app.elf:1a001d70 0000001c T USB0_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+examples/c/app/out/app.elf:1a001968 00000044 T Timer_DisableCompareMatch
+examples/c/app/out/app.elf:1a0001ba 00000002 W SCT_IRQHandler
+examples/c/app/out/app.elf:1a001020 0000001c T Chip_Clock_GetDividerDivisor
+examples/c/app/out/app.elf:1a0002fc T __CRP_WORD_START__
+examples/c/app/out/app.elf:10000160 00000005 B dataFromUart
+examples/c/app/out/app.elf:1a002a30 00000010 T memset
+examples/c/app/out/app.elf:1a00017c 00000002 W MemManage_Handler
+examples/c/app/out/app.elf:1a000340 0000006e T main
+examples/c/app/out/app.elf:1a0003e8 00000030 T MEF_init
+examples/c/app/out/app.elf:1a0001ba 00000002 W WDT_IRQHandler
+examples/c/app/out/app.elf:2000c000 A __top_RamAHB16
+examples/c/app/out/app.elf:1008a000 A __top_RamLoc40
+examples/c/app/out/app.elf:1a000182 00000002 W SVC_Handler
+examples/c/app/out/app.elf:1a001930 00000038 T Timer_EnableCompareMatch
+examples/c/app/out/app.elf:1a0024e8 0000005a T __aeabi_l2d
+examples/c/app/out/app.elf:1a001c68 00000018 T uartTxReady
+examples/c/app/out/app.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+examples/c/app/out/app.elf:1a001290 0000003c T Chip_Clock_EnableOpts
+examples/c/app/out/app.elf:1a002118 00000028 T servoWrite
+examples/c/app/out/app.elf:1a00103c 000000b8 T Chip_Clock_GetClockInputHz
+examples/c/app/out/app.elf:1a0010f4 00000080 T Chip_Clock_CalcMainPLLValue
+examples/c/app/out/app.elf:1a0014e8 00000038 T SystemInit
+examples/c/app/out/app.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W QEI_IRQHandler
+examples/c/app/out/app.elf:1a000150 T __bss_section_table
+examples/c/app/out/app.elf:1a002554 0000007a T __nedf2
+examples/c/app/out/app.elf:1a00171c 0000006a T gpioWrite
+examples/c/app/out/app.elf:1a0007a8 00000002 W _fini
+examples/c/app/out/app.elf:1a000bd4 00000040 T Chip_ADC_Init
+examples/c/app/out/app.elf:1000016c 00000004 B g_pUsbApi
+examples/c/app/out/app.elf:1a0007ac 00000038 T Board_SetupMuxing
+examples/c/app/out/app.elf:1a00140c 000000dc T Chip_UART_SetBaudFDR
+examples/c/app/out/app.elf:10000080 00000008 D tickRateMS
+examples/c/app/out/app.elf:1a001ec4 0000001c T timer3CompareMatch2func
+examples/c/app/out/app.elf:1a0001ba 00000002 W ETH_IRQHandler
+examples/c/app/out/app.elf:10000000 ? _end_uninit_RESERVED
+examples/c/app/out/app.elf:1a001c94 00000014 T uartTxWrite
+examples/c/app/out/app.elf:1a001efc 0000001c T valueToMicroseconds
+examples/c/app/out/app.elf:1a0001ba 00000002 W CAN0_IRQHandler
+examples/c/app/out/app.elf:10000000 D _data
+examples/c/app/out/app.elf:1a001acc 00000020 T tickCallbackSet
+examples/c/app/out/app.elf:10000170 B _pvHeapStart
+examples/c/app/out/app.elf:1a000178 T __section_table_end
+examples/c/app/out/app.elf:1a000a84 00000038 T Chip_SSP_Init
+examples/c/app/out/app.elf:10000118 00000001 B BUTTON_FLAG
+examples/c/app/out/app.elf:1a0026a4 00000040 T __aeabi_d2uiz
+examples/c/app/out/app.elf:1a0001ba 00000002 W GINT0_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W DAC_IRQHandler
+examples/c/app/out/app.elf:1a0009ac 00000024 T Board_Debug_Init
+examples/c/app/out/app.elf:1a0025f0 00000012 T __aeabi_dcmpeq
+examples/c/app/out/app.elf:10000118 D _edata
+examples/c/app/out/app.elf:1a001e8c 0000001c T timer2CompareMatch3func
+examples/c/app/out/app.elf:1a000abc 00000020 T Chip_I2C_EventHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+examples/c/app/out/app.elf:1a000c54 00000158 T Chip_SetupCoreClock
+examples/c/app/out/app.elf:1a0021ac 0000000a T GPIO0_IRQHandler
+examples/c/app/out/app.elf:10000165 00000001 B actState
+examples/c/app/out/app.elf:1a000000 00000040 T g_pfnVectors
+examples/c/app/out/app.elf:1a000dac 00000014 T SystemCoreClockUpdate
+examples/c/app/out/app.elf:1a001ea8 0000001c T timer3CompareMatch1func
+examples/c/app/out/app.elf:1a002654 0000004e T __aeabi_d2iz
+examples/c/app/out/app.elf:10000158 00000001 B FLAG_T
+examples/c/app/out/app.elf:1a0001ba 00000002 W DMA_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W EVRT_IRQHandler
+examples/c/app/out/app.elf:1b080000 A __top_MFlashB512
+examples/c/app/out/app.elf:1a0029e4 00000002 W __aeabi_idiv0
+examples/c/app/out/app.elf:1a001f64 0000004c T timer2CompareMatch0func
+examples/c/app/out/app.elf:1a00017e 00000002 W BusFault_Handler
+examples/c/app/out/app.elf:1a0012cc 00000034 T Chip_Clock_Enable
+examples/c/app/out/app.elf:1a0025e0 00000010 T __aeabi_cdcmpeq
+examples/c/app/out/app.elf:1a002544 0000008a T __gedf2
+examples/c/app/out/app.elf:1a001d66 0000000a T UART3_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+examples/c/app/out/app.elf:1a0001ba 00000002 W M0APP_IRQHandler
+examples/c/app/out/app.elf:1a001786 00000068 T gpioRead
+examples/c/app/out/app.elf:1a002494 00000042 T __aeabi_f2d
+examples/c/app/out/app.elf:1a001d8c 00000074 T boardInit
+examples/c/app/out/app.elf:1a001fb0 0000004c T timer3CompareMatch0func
+examples/c/app/out/app.elf:1a000040 000000d4 T g_pfnVendorVectors
+examples/c/app/out/app.elf:1a0021d4 0000027a T __subdf3
+examples/c/app/out/app.elf:1a0001ba 00000002 W GINT1_IRQHandler
+examples/c/app/out/app.elf:10000166 00000001 B levelMsg
+examples/c/app/out/app.elf:1a0019ac 00000018 T Timer_SetCompareMatch
+examples/c/app/out/app.elf:1a001e1c 0000001c T timer1CompareMatch2func
+examples/c/app/out/app.elf:1a001aec 00000018 T tickPowerSet
+examples/c/app/out/app.elf:1a001204 00000058 T Chip_Clock_SetBaseClock
+examples/c/app/out/app.elf:1a001520 0000001c T cyclesCounterInit
+examples/c/app/out/app.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+examples/c/app/out/app.elf:1a000850 0000000c T Board_SystemInit
